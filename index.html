@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Capture App</title>
+    <style>
+        body {
+            justify-content: left;
+            height: 100vh;
+        }
+
+        #video {
+            display: inline-block;
+        }
+
+        #table {
+            display: inline-block;
+            position: absolute;
+            top: 8px;
+            margin-left: 12px;
+            font-size: 16px;
+        }
+
+        tr {
+            width: auto;
+        }
+
+        td {
+            padding: 0;
+        }
+    </style>
+</head>
+<body>
+    <div id="video">
+        <video id="webcam" width="640px" height="auto" autoplay></video>
+    </div>
+    <div id="table">
+        <table id="results" style="border-spacing: 0;">
+            <tbody >
+                <tr>
+                    <td width="240px">
+                        <b>Cropped Image</b>
+                    </td>
+                    <td width="240px">
+                        <b>Text</b>
+                    </td>
+                </tr>
+            </tbody>    
+        </table>
+    </div>
+
+    <script src="./node_modules/tesseract.js/dist/tesseract.min.js"></script>
+    <script src="realtimeOCR.js" type="module"></script>
+</body>
+</html>
