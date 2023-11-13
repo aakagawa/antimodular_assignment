@@ -1,28 +1,13 @@
-# Real-time OCR javascript
+# Real-time OCR js
 
-### Coding Challenge: Live Webcam Applications
-
-##### Image Processing + OCR (Optical Character Recognition)
-
-Objective: Develop an application that uses a live webcam feed to capture text from objects such as product labels, book titles, and packaging.
-
-Requirements:
-
-Extract subsections of the image where text is detected.
-
-Convert the extracted image text to unicode characters using OCR.
-
-Display the results on the screen, stacking them akin to a table format that juxtaposes the cropped images and their corresponding unicode text.
-
-
-### Project: 
+### Project 
 Image Processing + OCR (Optical Character Recognition)
-
-### Submitted by
-Asuka Akagawa 
 
 ### For
 Antimodular Research Coding Challenge: Live Webcam Applications
+
+### Submitted by
+Asuka Akagawa 
 
 ### Date 
 11.13.2023
