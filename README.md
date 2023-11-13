@@ -31,6 +31,6 @@ Develop an application that uses a live webcam feed to capture text from objects
 ##### SKIP TO 13:10 FOR RESULTS
 
 ### Run command
-1. Download folder realtimeOCR
-2. Navigate to realtimeOCR directory
+1. Download ZIP antimodular_assignment-realtimeOCR
+2. Navigate to directory
 3. Serve on http-server 
